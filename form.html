@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <h1>Application Form</h1>
+    <form action="submit">
+        <fieldset>
+        <legend>Registration Form</legend>
+        <br>
+        <label for="firstname">First Name:</label>
+        <input type="text" placeholder="Enter First Name" required>
+        <br><br>
+        <label for="lastname">Last Name:</label>
+        <input type="text" placeholder="Enter Last Name" required>
+        <br><br>
+        <label for="text">Roll Number:</label>
+        <input type="text" placeholder="Enter Number" required minlength="10">
+        <br><br>
+        <label for="gender">Gender:</label>
+
+        <input type="radio" value="male" required>Male
+        <input type="radio" value="female" required>Femlae
+        <br><br>
+        <label for="email">Email:</label>
+
+        <input type="text" placeholder="Enter Email" minlength="10" maxlength="20" required>
+        <br><br>
+        <label for="passwrod">Password:</label>
+
+        <input type="text" placeholder="Enter Password" minlength="10" maxlength="20" required>
+        <br><br>
+        <button>Submit</button>
+        <br>
+        </fieldset>
+</body>
+</html>

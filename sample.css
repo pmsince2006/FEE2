@@ -1,0 +1,26 @@
+.main{
+    height: 50vh;
+    width: 100%;
+    background-color: blue;
+}
+.upper{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    background-color: chartreuse;
+}
+.lower{
+    height: 50%;
+    width: 100%;
+    background-color: aquamarine;
+}
+.logo{
+    width: 20%;
+    height: 100%;
+    background-color: aqua;
+}
+.list{
+    width: 80%;
+    height: 100%;
+    background-color: cornsilk;
+}
