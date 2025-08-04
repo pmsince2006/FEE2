@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.main{
+    height: 1000vh;
+    width: 100%;
+    background-color: aqua;
+}
+.first{
+    height: 10%;
+    width: 100%;
+    background-color:crimson
+}
+.second{
+    height: 10%;
+    width: 100%;
+    background-color: coral;
+}
+.third{
+    height: 10%;
+    width: 100%;
+    background-color: cornflowerblue;
+    display: flex;
+}
+.para{
+    height: 100%;
+    width: 50%;
+    background-color: gold;
+}
+.image{
+    height: 100%;
+    width: 50%;
+    background-color: lightblue;
+}
+.fourth{
+    height: 10%;
+    width: 100%;
+    background-color: crimson;
+}
+.five{
+    height: 10%;
+    width: 100%;
+    background-color: chocolate;
+    display: flex;
+}
+.heading{
+    height: 100%;
+    width: 50%;
+    background-color: burlywood;
+}
+.kahani{
+    height: 100%;
+    width: 50%;
+    background-color: brown;
+}
+.six{
+    height: 10%;
+    width: 100%;
+    background-color: cadetblue;
+}
+.seven{
+    height: 10%;
+    width: 100%;
+    display: flex;
+}
+.column1{
+    height: 100%;
+    width: 50%;
+}
+.firstc{
+    height: 50%;
+    width: 100%;
+    background-color: indianred;
+}
+.secondc{
+    height: 50%;
+    width: 100%;
+    background-color: cornsilk;
+}
+.column2{
+    height: 100%;
+    width: 50%;
+    background-color: coral;
+}
+.eight{
+    height: 10%;
+    width: 100%;
+    background-color: burlywood;
+}
+.nine{
+    height: 10%;
+    width: 100%;
+    display: flex;
+}
+.col1{
+    height: 100%;
+    width: 33.3%;
+    background-color: antiquewhite;
+}
+.col2{
+    height: 100%;
+    width: 33.3%;
+    background-color: aquamarine;
+}
+.col3{
+    height: 100%;
+    width: 33.3%;
+    background-color: blanchedalmond;
+}
