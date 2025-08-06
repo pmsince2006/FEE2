@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 550vh;
+    width: 100%;
+}
+.header{
+    height: 5rem;
+    width: 100%;
+    display: flex;
+}
+.logo{
+    height: 100%;
+    width: 20%;
+    background-color: bisque;
+}
+.links{
+    height: 100%;
+    width: 80%;
+    background-color: coral;
+}
+.intro{
+    height: 40.5rem;
+    width: 100%;
+    background-color: crimson;
+}
+.destinations{
+    height: 85rem;
+    width: 100%;
+    background-color: darkgoldenrod;
+}
+.title{
+    height: 10rem;
+    width: 100%;
+    background-color: cornsilk;
+}
+.row1{
+    display: flex;
+    height: 25rem;
+    width: 100%;
+}
+.one{
+    height: 100%;
+    width: 33.3%;
+    background-color: burlywood;
+}
+.two{
+    height: 100%;
+    width: 33.3%;
+    background-color: coral;
+}
+.three{
+    height: 100%;
+    width: 33.3%;
+    background-color: crimson;
+}
+.row2{
+    display: flex;
+    height: 25rem;
+    width: 100%;
+}
+.four{
+    height: 100%;
+    width: 33.3%;
+    background-color: cyan;
+}
+.five{
+    height: 100%;
+    width: 33.3%;
+    background-color: dodgerblue;
+}
+.six{
+    height: 100%;
+    width: 33.3%;
+    background-color: blue;
+}
+.row3{
+    display: flex;
+    height: 25rem;
+    width: 100%;
+}
+.seven{
+    height: 100%;
+    width: 33.3%;
+    background-color: cornsilk;
+}
+.eight{
+    height: 100%;
+    width: 33.3%;
+    background-color: coral;
+}
+.nine{
+    height: 100%;
+    width: 33.3%;
+    background-color: crimson;
+}
+.para{
+    height: 40rem;
+    width: 100%;
+    background-color: cornflowerblue;
+}
+.photo{
+    height: 45.5rem;
+    width: 100%;
+    display: flex;
+}
+.col1{
+    height: 100%;
+    width: 50%;
+}
+.heading{
+    height: 30%;
+    width: 100%;
+    background-color: bisque;
+}
+.info{
+    height: 70%;
+    width: 100%;
+    background-color: coral;
+}
+.img{
+    height: 100%;
+    width: 50%;
+    background-color: crimson;
+}
+.footer{
+    height: 35rem;
+    width: 100%;
+    background-color: darkred;
+}

@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 500vh;
+    width: 100%;
+}
+body {
+  background-image: url('websitebackground.jpg');
+  background-size: cover;
+  background-position: top center; 
+  background-repeat: no-repeat;
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+}
+.header{
+    height: 3%;
+    width: 100%;
+    display: flex;
+}
+.logo{
+    height: 100%;
+    width: 20%;
+
+}
+.navbar{
+    height: 100%;
+    width: 80%;
+
+}
+.intro{
+    height: 20%;
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding-top: 12rem;
+}
+.intro h2{
+    font-size: 3rem;
+    color: azure;
+}
+.intro p{
+    padding-top: 50px;
+    font-size: 2rem;
+    color: azure;
+}
+.intro h1{
+    padding-top: 26rem;
+    font-size: 3rem;
+}
+.top{
+    display: flex;
+    height: 15%;
+    width: 100%;
+}
+.one{
+    height: 100%;
+    width: 33.3%;
+    background-image: url(greece.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.one p{
+    text-align: center;
+    padding-top: 20rem;
+    font-size: 1.5rem;
+}
+.two{
+    height: 100%;
+    width: 33.3%;
+    background-image: url(hawai.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.two p{
+    text-align: center;
+    padding-top: 20rem;
+    font-size: 1.5rem;
+}
+.three{
+    height: 100%;
+    width: 33.3%;
+    background-image: url(iceland.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.three p{
+       text-align: center;
+    padding-top: 20rem;
+    font-size: 1.5rem;
+}
+.para{
+    height: 12%;
+    width: 100%;
+    text-align: center;
+    font-size: 2.8em;
+    padding-bottom: 25px;
+
+}
+.ved{
+    height: 20%;
+    width: 100%;
+    display: flex;
+}
+.column{
+    height: 100%;
+    width: 50%;
+}
+.title{
+    height: 30%;
+    width: 100%;
+
+}
+.desc{
+    height: 70%;
+    width: 100%;
+    
+}
+.med{
+    height: 100%;
+    width: 50%;
+
+}
+.picture{
+    height: 20%;
+    width: 100%;
+    display: flex;
+}
+.info{
+    height: 100%;
+    width: 50%;
+    
+}
+.img{
+    height: 100%;
+    width: 50%;
+    
+}
+.footer{
+    height: 15%;
+    width: 100%;
+
+}
+.header {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 px;
+}
+
+.logo {
+    font-size: 24px;
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    margin-left: 45em;
+}
+
+.navbar nav {
+    display: flex;
+    gap: 60px;
+}
+
+.navbar nav a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Georgia', serif;
+    font-size: 14px;
+}
+
