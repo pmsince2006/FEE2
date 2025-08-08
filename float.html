@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Slide Right Animation</title>
+  <style>
+    @keyframes slideRight {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(1200px);
+      }
+    }
+    .box {
+      width: 100px;
+      height: 100px;
+      background: orange;
+      animation: slideRight 0.1s ease-in-out infinite;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box"></div>
+
+</body>
+</html>

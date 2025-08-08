@@ -1,133 +1,363 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.main{
-    height: 550vh;
-    width: 100%;
+.main {
+  height: 500vh;
+  width: 100%;
 }
-.header{
-    height: 5rem;
-    width: 100%;
-    display: flex;
+.vedio {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
 }
-.logo{
-    height: 100%;
-    width: 20%;
-    background-color: bisque;
+.vedio video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-.links{
-    height: 100%;
-    width: 80%;
-    background-color: coral;
+.header {
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
 }
-.intro{
-    height: 40.5rem;
-    width: 100%;
-    background-color: crimson;
+.logo {
+  height: 100%;
+  width: 20%;
+  font-size: 24px;
+  font-family: "Georgia", serif;
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
-.destinations{
-    height: 85rem;
-    width: 100%;
-    background-color: darkgoldenrod;
+.space {
+  height: 100%;
+  width: 30%;
 }
-.title{
-    height: 10rem;
-    width: 100%;
-    background-color: cornsilk;
+.links {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.row1{
-    display: flex;
-    height: 25rem;
-    width: 100%;
+.links nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
 }
-.one{
-    height: 100%;
-    width: 33.3%;
-    background-color: burlywood;
+.links nav a {
+  color: black;
+  text-decoration: none;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 10rem;
+  font-size: 1.2rem;
 }
-.two{
-    height: 100%;
-    width: 33.3%;
-    background-color: coral;
+
+.intro {
+  height: 40rem;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.three{
-    height: 100%;
-    width: 33.3%;
-    background-color: crimson;
+.intro h2 {
+  color:black;
+  text-decoration: none;
+  font-family: "Luxurious Script", cursive;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 9rem;
 }
-.row2{
-    display: flex;
-    height: 25rem;
-    width: 100%;
+.intro p {
+  color: black;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.5rem;
 }
-.four{
-    height: 100%;
-    width: 33.3%;
-    background-color: cyan;
+.destinations {
+  height: 85rem;
+  width: 100%;
+  background-color: aliceblue;
 }
-.five{
-    height: 100%;
-    width: 33.3%;
-    background-color: dodgerblue;
+.title {
+  height: 14rem;
+  width: 100%;
+  background-color: aliceblue;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
-.six{
-    height: 100%;
-    width: 33.3%;
-    background-color: blue;
+.title p {
+  color: black;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 3rem;
 }
-.row3{
-    display: flex;
-    height: 25rem;
-    width: 100%;
+.row1 {
+  display: flex;
+  height: 23.5rem;
+  width: 100%;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
-.seven{
-    height: 100%;
-    width: 33.3%;
-    background-color: cornsilk;
+.one {
+  height: 100%;
+  width: 33.3%;
+  background-color: aliceblue;
+  background-repeat: no-repeat;
+  background-position: top center;
 }
-.eight{
-    height: 100%;
-    width: 33.3%;
-    background-color: coral;
+.one figcaption {
+  padding-top: 0.5rem;
+  font-size: 1.5rem;
+  color: black;
+  text-align: center;
 }
-.nine{
-    height: 100%;
-    width: 33.3%;
-    background-color: crimson;
+.two {
+  height: 100%;
+  width: 33.3%;
+  background-color: aliceblue;
+  background-repeat: no-repeat;
+  background-position: top center;
 }
-.para{
-    height: 40rem;
-    width: 100%;
-    background-color: cornflowerblue;
+.two figcaption {
+  padding-top: 0.5rem;
+  font-size: 1.5rem;
+  color: black;
+  text-align: center;
 }
-.photo{
-    height: 45.5rem;
-    width: 100%;
-    display: flex;
+.three {
+  height: 100%;
+  width: 33.3%;
+  background-color: aliceblue;
+  background-repeat: no-repeat;
+  background-position: top center;
 }
-.col1{
-    height: 100%;
-    width: 50%;
+.three figcaption {
+  padding-top: 0.5rem;
+  font-size: 1.5rem;
+  color: black;
+  text-align: center;
 }
-.heading{
-    height: 30%;
-    width: 100%;
-    background-color: bisque;
+.row2 {
+  display: flex;
+  height: 23.5rem;
+  width: 100%;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
-.info{
-    height: 70%;
-    width: 100%;
-    background-color: coral;
+.four {
+  height: 100%;
+  width: 33.3%;
+  background-color: aliceblue;
+  background-repeat: no-repeat;
+  background-position: top center;
 }
-.img{
-    height: 100%;
-    width: 50%;
-    background-color: crimson;
+.four figcaption {
+  padding-top: 0.5rem;
+  font-size: 1.5rem;
+  color: black;
+  text-align: center;
 }
-.footer{
-    height: 35rem;
-    width: 100%;
-    background-color: darkred;
+.five {
+  height: 100%;
+  width: 33.3%;
+  background-color: aliceblue;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.five figcaption {
+  padding-top: 0.5rem;
+  font-size: 1.5rem;
+  color: black;
+  text-align: center;
+}
+.six {
+  height: 100%;
+  width: 33.3%;
+  background-color: aliceblue;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.six figcaption {
+  padding-top: 0.5rem;
+  font-size: 1.5rem;
+  color: black;
+  text-align: center;
+}
+.row3 {
+  display: flex;
+  height: 23.5rem;
+  width: 100%;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.seven {
+  height: 100%;
+  width: 33.3%;
+  background-color: aliceblue;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.seven figcaption {
+  padding-top: 0.5rem;
+  font-size: 1.5rem;
+  color: black;
+  text-align: center;
+}
+.eight {
+  height: 100%;
+  width: 33.3%;
+  background-color: aliceblue;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.eight figcaption {
+  padding-top: 0.5rem;
+  font-size: 1.5rem;
+  color: black;
+  text-align: center;
+}
+.nine {
+  height: 100%;
+  width: 33.3%;
+  background-color: aliceblue;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.nine figcaption {
+  padding-top: 0.5rem;
+  font-size: 1.5rem;
+  color: black;
+  text-align: center;
+}
+.para {
+  height: 40rem;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.para h3 {
+  color: aliceblue;
+  text-decoration: none;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 3rem;
+}
+.para p {
+  color: aliceblue;
+  text-decoration: none;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 2rem;
+  max-width: 55rem;
+}
+.photo {
+  height: 45.5rem;
+  width: 100%;
+  display: flex;
+}
+.col1 {
+  height: 100%;
+  width: 50%;
+}
+.heading {
+  height: 50%;
+  width: 100%;
+  background-color: aliceblue;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.heading h2 {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+}
+.info {
+  height: 50%;
+  width: 100%;
+  background-color: aliceblue;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.info p {
+  max-width: 30rem;
+  font-size: 1rem;
+}
+.img {
+  height: 100%;
+  width: 50%;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem;
+}
+.img img {
+  max-width: 100%;
+  max-height: 100%;
+  background-repeat: no-repeat;
+  background-position: top center;
+  object-fit: contain;
+  display: block;
+}
+.footer {
+  height: 10rem;
+  width: 100%;
+  background-color: black;
+  color: aliceblue;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
