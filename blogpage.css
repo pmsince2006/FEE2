@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .main {
-  height: 500vh;
+  height: 490vh;
   width: 100%;
 }
 .vedio {
@@ -28,6 +28,7 @@
   position: relative;
   align-items: center;
   justify-content: space-between;
+  
 }
 .logo {
   height: 100%;
